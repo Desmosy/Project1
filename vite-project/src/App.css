@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.main-title {
+  padding: 50px;
+  text-align: center;
+  font-size: 3rem; 
+  font-weight: bold; 
+  color: #333;
+  letter-spacing: 2px; 
+  line-height: 1.5; 
+}
+.header-image {
+
+  height: 300px;
+  width: 100%;
+  }
+
+.main-title::after {
+  content: '';
+  display: block;
+  width: 200px; 
+  height: 2px; 
+  background-color: #3498db; 
+  margin: 20px auto; 
+}
